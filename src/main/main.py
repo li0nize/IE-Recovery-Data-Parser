@@ -61,4 +61,4 @@ if __name__ == '__main__':
     for files in filelist:
         print 'Trying to open: ' + files
         currentfile = readFile(files)
-        printFile(currentfile)
+        currentfile.split("http",1)[1]
